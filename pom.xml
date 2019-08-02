@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.levelsbeyond</groupId>
-	<artifactId>Notes-App</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>Notes-App</name>
+	<artifactId>NotesApp</artifactId>
+	<version>1.0</version>
+	<name>NotesApp</name>
 	<description>Note taking Application</description>
 
 	<properties>
