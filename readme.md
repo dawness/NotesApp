@@ -1,7 +1,7 @@
 # NotesApp
 
 ## Overview
-It is a Note taking Application.
+It is a Note taking Application.  
 NotesApp is a Spring Boot application with an embedded Tomcat server and can run on any system with java installed.
 
 ## How to deploy and run it
@@ -14,30 +14,30 @@ NotesApp is a Spring Boot application with an embedded Tomcat server and can run
   host and the port as specified in the application.properties file.
 ```
 ### How to access the NotesApp
- Once the application starts running, the App can be accessed by entering the url
-  There are 5 endpoints for this Application
+ Once the application starts running, the App can be accessed by entering the url.  
+ There are 5 endpoints for this Application  
   * Add a Note
-     POST- api/notes,
-     body - a note,
-     Returns - a saved note
+     POST- api/notes,  
+     body - a note,  
+     Returns - a saved note  
 
   * Get all the Notes or Get all the Notes which contains a word
-     Get - api/notes
-     Returns - a list of NOtes
-     or
-     Get- api/notes
-     RequestParam - a word
-     Returns = a list of Notes which contains the word
+     Get - api/notes  
+     Returns - a list of Notes  
+     or  
+     Get- api/notes  
+     RequestParam - a word  
+     Returns = a list of Notes which contains the word  
 
-  * Get a note if provided with id
-      Get - api/notes/{id}
-      Returns - a note
+  * Get a note if provided with id  
+      Get - api/notes/{id}  
+      Returns - a note  
 
-  * Update a note for a specific Id
-      Put - api/notes/{id}
-      body - a note
-      Returns - updated note
+  * Update a note for a specific Id  
+      Put - api/notes/{id}  
+      body - a note  
+      Returns - updated note  
 
-  * Delete a note for a specific Id
-      Delete = api/notes/{id}
-      Returns - Confirmation message if note is deleted.
+  * Delete a note for a specific Id  
+      Delete = api/notes/{id}  
+      Returns - Confirmation message if note is deleted.  
