@@ -10,7 +10,7 @@ NotesApp is a Spring Boot application with an embedded Tomcat server and can run
  - Go to the Project folder : cd NotesApp
  - Do a Maven clean build which will create an executable jar: mvn clean package
  - Run the application  : java -jar ./target/NotesApp-1.0.jar
-  Running the runnable jar starts the application and the embedded server that listens to the
+  Running the runnable jar starts the application and the embedded server listens to the
   host and the port as specified in the application.properties file.
 ```
 ### How to access the NotesApp
