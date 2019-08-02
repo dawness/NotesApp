@@ -95,7 +95,7 @@ public class NotesRepository {
     public Boolean DoesItContainTheWord(Note note, String body) {
         String[] words = note.getBody().split(" ");
         for (String word : words) {
-            if (word.matches(body)) {
+            if (word.equalsIgnoreCase(body)) {
                 return true;
             }
         }

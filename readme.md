@@ -4,6 +4,9 @@
 It is a Note taking Application.  
 NotesApp is a Spring Boot application with an embedded Tomcat server and can run on any system with java installed.
 
+## Technology Used  
+Java 8, SpringBoot, Lombok, H2
+
 ## How to deploy and run it
 ```
  - Clone the repository : git clone https://github.com/dawness/NotesApp.git
@@ -27,7 +30,9 @@ NotesApp is a Spring Boot application with an embedded Tomcat server and can run
      or  
      Get- api/notes  
      RequestParam - a word  
-     Returns = a list of Notes which contains the word    
+     Returns = a list of Notes that contains the search string (looks for the whole word, case insensitive ) 
+     
+     (milk and milk! are 2 different words, compares the whole word )  
 
   * Get a note if provided with id    
       Get - api/notes/{id}  

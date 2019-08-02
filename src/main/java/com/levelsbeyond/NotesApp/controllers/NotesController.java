@@ -61,14 +61,14 @@ public class NotesController {
      */
 
     @GetMapping("/notes")
-    public ResponseEntity getNotes(@RequestParam(required = false) String body) {
+    public ResponseEntity getNotes(@RequestParam(required = false) String query) {
         List<Note> notes;
 
-        if (StringUtils.isEmpty(body)) {
+        if (StringUtils.isEmpty(query)) {
             notes = notesService.getNotes();
 
         } else {
-            notes = notesService.getNotesByBody(body);
+            notes = notesService.getNotesByBody(query);
         }
         if (notes.size() > 0) {
             return new ResponseEntity<>(notes, HttpStatus.OK);
