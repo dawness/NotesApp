@@ -1,18 +1,18 @@
-#NotesApp
+# NotesApp
 
-##Overview
+## Overview
 It is a Note taking Application.
 NotesApp is a Spring Boot application with an embedded Tomcat server and can run on any system with java installed.
 
 ## How to deploy and run it
-
- *-- Clone the repository : git clone https://github.com/dawness/NotesApp.git
- *-- Go to the Project folder : cd NotesApp
- *-- Do a Maven clean build which will create an executable jar: mvn clean package
- *-- Run the application  : java -jar ./target/NotesApp-1.0.jar
+```
+ - Clone the repository : git clone https://github.com/dawness/NotesApp.git
+ - Go to the Project folder : cd NotesApp
+ - Do a Maven clean build which will create an executable jar: mvn clean package
+ - Run the application  : java -jar ./target/NotesApp-1.0.jar
   Running the runnable jar starts the application and the embedded server that listens to the
   host and the port as specified in the application.properties file.
-
+```
 ### How to access the NotesApp
  Once the application starts running, the App can be accessed by entering the url
   There are 5 endpoints for this Application
