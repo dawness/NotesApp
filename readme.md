@@ -30,6 +30,7 @@ Java 8, SpringBoot, Lombok, H2
      or  
      Get- api/notes  
      RequestParam - a word  
+     eg:  api/notes?query=milk   
      Returns = a list of Notes that contains the search string (looks for the whole word, case insensitive ) 
      
      (milk and milk! are 2 different words, compares the whole word )  
